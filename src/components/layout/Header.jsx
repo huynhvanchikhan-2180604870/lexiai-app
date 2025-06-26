@@ -16,9 +16,9 @@ import {
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "../../assets/react.svg";
 import { useAuth } from "../../hooks/useAuth";
 import Button from "../common/Button";
-
 // Define navigation links for both top and bottom nav
 const mainNavLinks = [
   { name: "Từ Vựng", path: "/vocabulary", icon: BookOpen },
