@@ -1,0 +1,26 @@
+/* Import Tailwind CSS base, components, and utilities */
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+/* Custom global styles */
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-lexi-background, #FFFFFF);
+    /* Fallback to white */
+    color: var(--color-lexi-headline, #1f1235);
+    /* Fallback for text color */
+}
+
+/* You might want to define CSS variables for your colors for more flexibility
+   if not fully relying on Tailwind classes everywhere, but Tailwind classes
+   are generally preferred. Example for custom properties: */
+:root {
+    --color-lexi-background: #FFFFFF;
+    --color-lexi-headline: #1f1235;
+    --color-lexi-subheadline: #1b1425;
+    --color-lexi-button: #ff6e6c;
+    --color-lexi-button-text: #1f1235;
+    /* Add other colors as CSS variables if needed for non-Tailwind contexts */
+}
