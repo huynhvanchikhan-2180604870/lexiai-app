@@ -20,6 +20,7 @@
     "react-is": "^19.1.0",
     "react-router-dom": "^7.6.2",
     "recharts": "^3.0.0",
+    "serve": "^14.2.4",
     "tailwindcss": "^4.1.10"
   },
   "devDependencies": {
